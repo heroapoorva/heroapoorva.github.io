@@ -1,0 +1,63 @@
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+
+Images, how to source, size.
+paras, don't care about preformatting
+pre, keeps text format
+breaking line, draw line
+style:- text size, font, background color, text color, alignment
+formatting:- bold, italics, sub and superscript, and more
+quotating format, abbreviation
+1 line vs multi line comments
+There exist ~140 custom color names. Can color border, its thickness
+
+CSS can be added to HTML documents in 3 ways:
+
+    Inline - by using the style attribute inside HTML elements
+    Internal - by using a <style> element in the <head> section
+    External - by using a <link> element to link to an external CSS file
+Border:- the box
+padding:- the distance inside before writing
+margin:- the distance outside
+
+links
+same tab, new tab, etc
+relative vs absolute path
+the thing with link can be text, image, button, anything!
+mailto
+coloring link, colorful buttons,
+id for bookmark
+
+Can make specific areas of a image clickable and link them to other ids, links
+For pressing specific parts of the image can call javascript functions
+Can specify background images, for specific parts of page or the entire page
+If the images used is smaller than element, it will repeat. can stop the repeat using a flag
+Can use flags to scale the images to cover the entire element/ frame where it is set to appear.
+Depending on the window size, you can change the image displayed, using "picture". It goes from top to bottom. if it sees a unknown format, ignores it.
+
+
+Different types of tables, latex like table properties.
+
+list, bullet points/ dash/ nothing/ square, numbered, nested lists
+Kinda like itemize
+HORIZONTAL LISTS!
+
+Can define custom classes, which have styles etc associated with them in the head
+Can define javascript function so get all the elements of a particular class, basically an iterator. 
+                                    var x = document.getElementsByClassName("city");
+now given you can loop over each of them, can make them disappear using
+                                 x[i].style.display = "none";
+                         <script>
+                        function myFunction() {
+                          var x = document.getElementsByClassName("city");
+                          for (var i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                          }
+                        }
+                        </script> 
+                        
+                        
+
